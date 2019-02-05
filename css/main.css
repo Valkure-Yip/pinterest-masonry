@@ -1,0 +1,80 @@
+.title-bar {
+    height:50px;
+}
+
+.gallary {
+    padding: 0 20px;
+}
+
+.column {
+    float:left;
+    width: 25%;
+}
+
+.pinWrapper {
+    position: relative;
+    width: 90%;
+    margin: 20px auto 0 auto;
+    padding: 5px;
+}
+
+.pinWrapper:hover {
+    background-color: rgb(248, 248, 248);
+}
+
+.pinWrapper .image {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.pinWrapper .image .save-btn {
+    display: none;
+}
+
+.pinWrapper .image:hover .save-btn {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    width: 80px;
+    height: 45px;
+    border-radius: 10px;
+    text-align:center;
+}
+
+.pinWrapper .image img {
+    width:100%;
+    border-radius: 5px;
+}
+
+.pinWrapper .bottom {
+    /* height: 50px; */
+    position: relative;
+    margin: 10px;
+}
+
+.pinWrapper .bottom .illustration {
+    text-align: center;
+    width: 80%;
+    /* position: relative; */
+    /* margin-bottom: 30px; */
+}
+
+.pinWrapper .bottom .info-btn {
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70%;
+    font-size: 12pt;
+    position: absolute;
+    right:0;
+    bottom:20%;
+    
+}
+
+.pinWrapper .bottom .info-btn:hover {
+    background-color: gainsboro;
