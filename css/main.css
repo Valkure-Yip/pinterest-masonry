@@ -3,12 +3,14 @@
 }
 
 .gallary {
-    padding: 0 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .column {
-    float:left;
-    width: 25%;
+    /* float:left; */
+    width: 250px;
 }
 
 .pinWrapper {
